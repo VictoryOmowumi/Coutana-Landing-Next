@@ -52,7 +52,7 @@ export const Navbar = () => {
           className="hidden w-full md:flex md:items-center md:w-auto"
           id="menu"
         >
-          <ul className="pt-4 text-base text-coutana-gray-100 font-semibold md:flex space-x-4 md:justify-between md:pt-0">
+          <ul className="pt-4 text-base text-coutana-gray-200 font-semibold md:flex space-x-4 md:justify-between md:pt-0">
             <li>
               <a className="md:p-4 py-2 block hover:text-[#E572B8]" href="#">
                 Features

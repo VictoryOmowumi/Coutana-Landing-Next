@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         coutana: {
           "gray-100": "#3F3F3F",
+          "gray-200": "#19063d",
         },
       },
     },
