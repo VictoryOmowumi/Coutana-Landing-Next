@@ -75,7 +75,7 @@ export const Navbar = () => {
             </li>
             <li>
               <a
-                className="md:p-4 py-2 md:px-8 block hover:text-[#E572B8] text-purple-500 bg-white rounded-full text-sm"
+                className="shadow-md md:p-4 py-2 md:px-8 block hover:text-[#E572B8] text-purple-500 bg-white rounded-full text-sm"
                 href="#"
               >
                 Download App
