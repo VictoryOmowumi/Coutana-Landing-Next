@@ -3,7 +3,7 @@ import aboutImg from "../assets/about.png"
 export const About = () => {
   return (
     <div className="grid grid-cols-2 items-center m-10 mx-auto p-20 bg-[url('../assets/bg-image.svg')] bg-cover bg-no-repeat bg-left-bottom md " id="about" >
-        <div className="col-span-1 flex justify-end items-end about-img" width={500} height={500}>
+        <div className="col-span-1 flex justify-end items-end about-img" width={510} height={500}>
             <Image src={aboutImg} alt="about"   />
         </div>
         
