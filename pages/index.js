@@ -1,4 +1,5 @@
-import { Navbar, Hero, Box, Footer } from "../components";
+import { Navbar, Hero, Box, Footer, About, Partner } from "../components";
+
 
 export default function Home() {
   return (
@@ -6,7 +7,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Box />
-
+      <About />
+      <Partner />
       <Footer />
     </div>
   );
