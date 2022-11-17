@@ -17,6 +17,11 @@ module.exports = {
       backgroundImage :{
         'hero-img': "url('/assets/bg-image.svg')",
       },
+      minWidth: {
+        210: '210px',
+        350: '350px',
+        620: '620px',
+      },
     },
   },
   plugins: [],

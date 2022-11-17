@@ -1,16 +1,18 @@
 export const Partner = () => {
   return (
     <div className="">
-      <div className="container grid grid-cols-2 justify-center items-center mx-auto max-w-screen-sm:grid-cols-1">
-        <div className=" col-span-1 ">
-          <p className=" text-6xl leading-normal ">
+      <div className="container grid grid-cols-2 justify-center items-center mx-auto max-w-screen-sm:grid-cols-1 " id="partner" >
+        <div className=" col-span-1 " id="partner-header">
+          <p className=" text-6xl  ">
             Grow your brand today with{" "}
             <span className="text-[#ab4fd3]">Coutana</span>{" "}
           </p>
           <p className="text-coutana-gray-100 text-md">
             With our platform, you can reach millions of customers and grow your
-            business.
+            business. <br /> <span className="text-[#ab4fd3]">Partner with us today</span>
+            
           </p>
+          
         </div>
 
         <div className=" col-span-1 p-4 ">
