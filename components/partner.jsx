@@ -1,7 +1,7 @@
 export const Partner = () => {
   return (
     <div className="">
-      <div className="container grid grid-cols-2 justify-center items-center mx-auto md:grid-cols-1 sm:grid-cols-1">
+      <div className="container grid grid-cols-2 justify-center items-center mx-auto max-w-screen-sm:grid-cols-1">
         <div className=" col-span-1 ">
           <p className=" text-6xl leading-normal ">
             Grow your brand today with{" "}
