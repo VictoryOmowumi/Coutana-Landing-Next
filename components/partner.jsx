@@ -9,7 +9,7 @@ export const Partner = () => {
           </p>
           <p className="text-coutana-gray-100 text-md">
             With our platform, you can reach millions of customers and grow your
-            business. <br /> <span className="text-[#ab4fd3]">Partner with us today</span>
+            business. <br /> <span className="text-[#ab4fd3]">Partner with us.</span>
             
           </p>
           
