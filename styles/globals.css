@@ -74,6 +74,11 @@ a {
  
  
    }
+   .grid-cols-2 {
+    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
  }
 
  /* #partner{
