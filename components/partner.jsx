@@ -1,7 +1,8 @@
+import Image from "next/image";
 export const Partner = () => {
   return (
     <div className="">
-      <div className="container grid grid-cols-2 justify-center items-center mx-auto max-w-screen-sm:grid-cols-1 " id="partner" >
+      <div className="container  grid grid-cols-2 justify-center items-center mx-auto max-w-screen-sm:grid-cols-1" id="partner" >
         <div className=" col-span-1 " id="partner-header">
           <p className=" text-6xl  ">
             Grow your brand today with{" "}
@@ -16,7 +17,7 @@ export const Partner = () => {
         </div>
 
         <div className=" col-span-1 p-4 ">
-          <form action="" method="post">
+          {/* <form action="" method="post">
             <div className="">
               <div className="">
                 <div className="flex flex-col leading-8 ">
@@ -102,7 +103,7 @@ export const Partner = () => {
             >
               Send Message
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>
