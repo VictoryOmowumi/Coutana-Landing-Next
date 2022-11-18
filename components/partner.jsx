@@ -1,22 +1,22 @@
 import Image from "next/image";
 export const Partner = () => {
   return (
-    <div className="">
-      <div className="container  grid grid-cols-2 justify-center items-center mx-auto max-w-screen-sm:grid-cols-1" id="partner" >
-        <div className=" col-span-1 " id="partner-header">
-          <p className=" text-6xl  ">
+    <div className="h-[60vh] w-full flex justify-center items-center bg-[url('../assets/banner-2.jpg')] bg-blend-overlay bg-cover bg-no-repeat bg-fixed bg-center  " >
+      <div className=" mx-auto p-4" id="partner" >
+        <div className=" col-span-1 text-center " id="partner-header">
+          <p className=" text-6xl text-coutana-gray-200 ">
             Grow your brand today with{" "}
-            <span className="text-[#ab4fd3]">Coutana</span>{" "}
+            <span className="text-[#fff]">Coutana</span>{" "}
           </p>
-          <p className="text-coutana-gray-100 text-md">
+          <p className="text-coutana-gray-200 text-base  ">
             With our platform, you can reach millions of customers and grow your
-            business. <br /> <span className="text-[#ab4fd3]">Partner with us.</span>
+            business. <br /> <span className="text-[#ffffff]">Partner with us.</span>
             
           </p>
           
         </div>
 
-        <div className=" col-span-1 p-4 ">
+        
           {/* <form action="" method="post">
             <div className="">
               <div className="">
@@ -104,7 +104,9 @@ export const Partner = () => {
               Send Message
             </button>
           </form> */}
-        </div>
+       
+      
+        
       </div>
     </div>
   );

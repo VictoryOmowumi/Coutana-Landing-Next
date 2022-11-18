@@ -108,23 +108,7 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+input, textarea, select, button {
+  box-shadow:  4px 4px 0px 0px rgba(241, 11, 222, 0.034);
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
-}
